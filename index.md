@@ -2,7 +2,7 @@
 layout: default
 title: Home
 redirect_from:
-  - /pages/database
+  - /pages/about
   - /pages/home
 ---
 
