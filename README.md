@@ -1,1 +1,1 @@
-# PSMD static site with RISM Online search
+# Static page for the Historical music inventory database
