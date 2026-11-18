@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Inventories
-redirect_from: /libraries
+redirect_from:
+  - /libaries
+  - /pages/list
 permalink: inventories.html
 ---
 
