@@ -71,38 +71,43 @@ inventories:
 
 ---
 
-Inventories are now catalogued in Muscat and published in RISM Online. You can see the current list of inventories in [RISM Online](https://rism.online/search?mode=sources&fq=material-content-types%3AInventory&page=1&rows=100).
+## Inventories in RISM
 
-### Initial database
+Inventories are now catalogued in Muscat and published in RISM Online. You can search and browse the current list of inventories directly in [RISM Online](https://rism.online/search?mode=sources&fq=material-content-types%3AInventory&page=1&rows=100).
 
-For documentation purposes, this is the list of inventories catalogues in the original database. They all have been migrated into RISM.
+### Initial list of inventories
 
-<table>
-  <thead>
-    <tr>
-      <th>Inventory siglum</th>
-      <th>Title</th>
-      <th>RISM</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for inventory in page.inventories %}
-    <tr>
-      <td>
-        <a href="https://inventories.rism-ch.org/libraries/{{ inventory.id }}">
-          {{ inventory.siglum }}
-        </a>
-      </td>
-      <td>{{ inventory.title }}</td>
-      <td>
-        <a href="https://rism.online/sources/{{ inventory.rism}}">
-          Inventory
-        </a> |
-        <a href="https://rism.online/sources/{{ inventory.rism}}/inventory-items">
-          Content
-        </a>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+For documentation purposes, this is the list of inventories catalogues in the original database and published as distinct publications. They all have been migrated into RISM.
+
+
+- [The Beromünster Inventory (1696)](http://in-dev.rism.digital/libraries/51000005), ed. Claudio Bacciagaluppi and Luigi Collarile, 2010 (Historical Music Inventories, 1), DOI: [10.5448/RISM-d-lib-005](https://doi.org/10.5448/RISM-d-lib-005)
+
+- [The St Urban Inventory (1661)](http://in-dev.rism.digital/libraries/51006823), ed. Claudio Bacciagaluppi and Luigi Collarile with Annaïck Bouquin, 2010 (Historical Music Inventories, 2), DOI: [10.5448/RISM-d-lib-006](https://doi.org/10.5448/RISM-d-lib-006)
+
+- [The Feldkirch Inventory (1699)](http://in-dev.rism.digital/libraries/51006826), ed. Claudio Bacciagaluppi, 2011 (Historical Music Inventories, 3), DOI: [10.5448/RISM-d-lib-007](https://doi.org/10.5448/RISM-d-lib-007)
+
+- [The Berne Inventory (1697)](http://in-dev.rism.digital/libraries/51006867), ed. Florence Sidler, 2012 (Historical Music Inventories, 4), DOI: [10.5448/RISM-d-lib-008](https://doi.org/10.5448/RISM-d-lib-008)
+
+- [The Inventory of the Winterthur Collegium Musicum (1660)](http://in-dev.rism.digital/libraries/51006861), ed. Claudio Bacciagaluppi, 2012 (Historical Music Inventories, 5), DOI: [10.5448/RISM-d-lib-009](https://doi.org/10.5448/RISM-d-lib-009)
+
+- [The Inventory of the Winterthur Collegium Musicum (1722)](http://in-dev.rism.digital/libraries/51006862), ed. Claudio Bacciagaluppi, 2012 (Historical Music Inventories, 6), DOI: [10.5448/RISM-d-lib-010](https://doi.org/10.5448/RISM-d-lib-010)
+
+- [The Berne Inventory (1761)](http://in-dev.rism.digital/libraries/51006866), ed. Claudio Bacciagaluppi, 2012 (Historical Music Inventories, 7), DOI: [10.5448/RISM-d-lib-011](https://doi.org/10.5448/RISM-d-lib-011)
+
+- [The Bischofszell Inventory (1743)](http://in-dev.rism.digital/libraries/51006863), ed. Claudio Bacciagaluppi, 2012 (Historical Music Inventories, 8), DOI: [10.5448/RISM-d-lib-012](https://doi.org/10.5448/RISM-d-lib-012)
+
+- [The Bischofszell Inventory (1744)](http://in-dev.rism.digital/libraries/51006864), ed. Claudio Bacciagaluppi, 2012 (Historical Music Inventories, 9), DOI: [10.5448/RISM-d-lib-013](https://doi.org/10.5448/RISM-d-lib-013)
+
+- [The Inventory of St Leodegar in Schönenwerd (1622)](http://in-dev.rism.digital/libraries/51006868), ed. Claudio Bacciagaluppi, 2013 (Historical Music Inventories, 10), DOI: [10.5448/RISM-d-lib-014](https://doi.org/10.5448/RISM-d-lib-014)
+
+- [The Zurich 'Deutsche Schule' Inventory (1698)](http://in-dev.rism.digital/libraries/51006865), ed. Claudio Bacciagaluppi, 2013 (Historical Music Inventories, 11), DOI: [10.5448/RISM-d-lib-015](https://doi.org/10.5448/RISM-d-lib-015)
+
+- [The Zurich 'Chorherrenstube' Inventory (1698)](http://in-dev.rism.digital/libraries/51006860), ed. Claudio Bacciagaluppi, 2013 (Historical Music Inventories, 12), DOI: [10.5448/RISM-d-lib-016](https://doi.org/10.5448/RISM-d-lib-016)
+
+- [The 'Goldenes Buch' of the Aarau Collegium Musicum (1710)](http://in-dev.rism.digital/libraries/51006870), ed. Christoph Riedo, 2013 (Historical Music Inventories, 13), DOI: [10.5448/RISM-d-lib-017](https://doi.org/10.5448/RISM-d-lib-017)
+
+- [The Oostende Inventory (1747)](http://in-dev.rism.digital/libraries/51006872), ed. Stefanie Beghein, 2016 (Historical Music Inventories, 14), DOI: [10.5448/RISM-d-lib-018](https://doi.org/10.5448/RISM-d-lib-018)
+
+- [Parstorffer's Inventory (1653)](http://in-dev.rism.digital/libraries/51006874), ed. Luigi Collarile, 2020 (Historical Music Inventories, 15), DOI: [10.5448/RISM-d-lib-021](https://doi.org/10.5448/rism-d-lib-013)
+
+- [Ouvrages de musique dans la bibliothèque de Pierre Fatio (1707)](http://inventories.rism-ch.org/libraries/51006876), ed. Christoph Riedo, 2023 (Historical Music Inventories, 16), DOI: [10.5448/RISM-d-lib-023](https://doi.org/10.5448/rism-d-lib-023)
