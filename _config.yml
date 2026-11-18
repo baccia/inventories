@@ -1,0 +1,14 @@
+title: "Historical music inventories 1500-1800"
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-redirect-from
