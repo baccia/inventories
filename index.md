@@ -47,7 +47,7 @@ and the [Swiss RISM Office](https://rism.digital/rism-ch.html),
 with the support of the
 [Swiss National Science Foundation](http://www.snf.ch) (project No. 100012-124416). Since 2011, the series has been open to collaboration from researchers and institutions worldwide. 
 
-Working group members:
+Initial working group members:
 Prof. Luca Zoppelli (head)
 Claudio Bacciagaluppi
 Luigi Collarile
