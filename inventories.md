@@ -9,7 +9,7 @@ permalink: inventories.html
 
 ## Inventories in RISM
 
-From 2010 to 2023, data were entered using the 2010 version of the RISM cataloguing software. In 2025/26, all data were migrated from the original database in the software's current version, as it was no longer possible to maintain the superseded version of the software. The project and each of the volumes published so far are now also described in [RISM Online](https://rism.online/institutions/51009794). 
+From 2010 to 2023, data were entered using a separate instance of the 2010 version of the RISM cataloguing software. In 2025/26, all data were migrated from the original database into the RISM dataset, as it was no longer viable to maintain a distinct database. The project and each of the volumes published so far are now also described in [RISM Online](https://rism.online/institutions/51009794). 
 
 Further inventories can be now catalogued in the current Muscat version and published in RISM Online. You can search and browse the current list of inventories directly in [RISM Online](https://rism.online/search?mode=sources&fq=material-content-types%3AInventory&page=1&rows=100).
 
